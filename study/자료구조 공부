@@ -1,0 +1,29 @@
+
+	 1.public : 모든 접근 허용
+	 2.protected : 같은 패키지(폴더)의 객체, 상속 관계의 객체 허옹
+	 3.default : 같은 패키지(폴더)의 객체 허용
+	 4.private : 현재의 객체 안에서만 허용 
+	 
+	 클래스 ; public, default 
+	 생성자 : public protected, default, private
+	 멤버 변수 : public, protected, default, private
+	 멤버 메서드 : public, protected, default, private 
+	 지역 변수 : 접근 제한자를 사용할 수 없음 
+	 
+	
+	Random 클래스 인스턴스 선언 
+	
+	Random rand = new Random();
+	Random rand = new Random(n);
+	
+	
+		- 내장 메서드 
+			nextBoolean() : true, false
+			nextInt() : int 형
+			nextInt(n) : int형 ( 0 에서 n-1 ) 
+			nextLong() : long 형
+			nextDouble() : double 형
+			nextFloat() : float 형 
+			
+	
+	
